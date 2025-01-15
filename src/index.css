@@ -12,6 +12,7 @@
 
 
 }
+
 .sticky{
   position: sticky;
   top: 0;
@@ -33,7 +34,7 @@
   background-color: #161616;
   background-image: url("./assets/images/Group20.png");
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
 }
 .body-cover{
   height: auto;
@@ -101,7 +102,7 @@ a{
 
   background-image: url("./assets/images/Group20.png");
   background-position: center;
-  background-size: cover;
+  background-size: 90%;
 }
 .hero{
   height: auto;
@@ -185,12 +186,12 @@ a{
 .skill-container{
   height: auto;
   width: 100%;
+  padding: 50px 20px 50px 20px;
   background-color: #161616;
-
   background-image: url("./assets/images/Group20.png");
   background-position: center;
-  background-size: cover;
-  padding: 50px 20px 50px 20px;
+  background-size: 90%;
+
   
 }
 .skills{
