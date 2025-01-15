@@ -173,7 +173,8 @@ a{
 
 }
 .companies-img{
-  height: 100px;
+
+  max-width: 100px;
   filter: grayscale();
   transition: all 0.3s ease;
 }
@@ -319,4 +320,71 @@ a{
 i:hover{
   color: bisque;
   transition: all 0.3s ease;
+}
+.qualification{
+  background-color: #161616;
+  background-image: none;
+}
+@media screen and (max-width:1120px){
+    .grid-5x{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 10px;
+    }
+    .grid-4x{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+    }
+}
+@media screen and (max-width:830px){
+  .grid-4x{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+}
+@media screen and (max-width:640px){
+  .grid-5x{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+}
+@media screen and (max-width:510px){
+  .grid-4x{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+  }
+  .grid-5x{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  .hire h1{
+    font-size: 26px;
+  }
+}
+@media screen and (max-width:400px){
+  .hero h1{
+    font-size: 24px;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .footer-tab {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width:350px){
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }

@@ -26,7 +26,7 @@ const Companies = () => {
           <div className="grid-5x">
             {companyImages.map((img, index) => (
               <div className="center" key={index}>
-                <img src={img} alt={`Company ${index + 1}`} className="companies-img" />
+                <img  data-aos="fade-in" src={img} alt={`Company ${index + 1}`} className="companies-img" />
               </div>
             ))}
           </div>

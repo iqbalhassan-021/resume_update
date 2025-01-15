@@ -25,7 +25,7 @@ const Hero = () => {
     <div className="hero-container">
       <div className="body-cover">
         <div className="hero">
-          <div
+          <div  data-aos="fade-down"
             className="me"
             style={{ backgroundImage: `url('${siteData.siteImage}')` }}
           ></div>

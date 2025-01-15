@@ -23,12 +23,12 @@ const Skills = () => {
     <div className="skill-container">
       <div className="body-cover">
         <div className="skills">
-          <h1>
+          <h1  data-aos="fade-up">
             I can collaborate with brands and agencies to create impactful results
           </h1>
           <div className="grid-4x">
             {services.map((service, index) => (
-              <div className="skill-card" key={index}>
+              <div className="skill-card" key={index}  data-aos="fade-up">
                 <p>
                   <i className={service.icon}></i>
                 </p>

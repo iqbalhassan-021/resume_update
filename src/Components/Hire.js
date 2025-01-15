@@ -24,7 +24,7 @@ const Hire = () => {
   return (
     <div className="hire-container">
       <div className="body-cover">
-        <div className="hire">
+        <div className="hire" >
           <div className="me center">
             <i className="fa-sharp fa-solid fa-handshake"></i>
           </div>
