@@ -22,7 +22,11 @@ const Hero = () => {
   const whatsappLink = `https://wa.me/${siteData.phone}`;
 
   return (
-    <div className="hero-container">
+    <>
+    <head>
+    <link rel="icon" href={siteData.siteImage} />
+    </head>
+    <div className="hero-container" style={{ backgroundImage: `url('/assets/images/cover.jpg')` }}>
       <div className="body-cover">
         <div className="hero">
           <div  data-aos="fade-down"
@@ -39,6 +43,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
